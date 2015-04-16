@@ -14,7 +14,6 @@ var clone = require('clone'),
  * formData().model(Entity).getRequired()
  */
 
-
 setOptions.list = function (obj, item) {
     if (item && item.enumValues) {
         obj.options = item.enumValues.map(function (enumValue) {
